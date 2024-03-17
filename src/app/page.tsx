@@ -25,8 +25,28 @@ export default function Home() {
       <TechStack />
 
       <div id="project-section" className="grid grid-cols-2 gap-4">
-        <ThreeDCardDemo />
-        <ThreeDCardDemo2 />
+        <ThreeDCardDemo
+          title="Ecommerce Project"
+          para="An e-commerce website built using the MERN MongoDB, Express.js, React,
+  Node.js stack combines a robust backend with a dynamic frontend to
+  create a seamless shopping experience. MERN's key components enable
+  features like user authentication, product management, order
+  processing, and payment integration."
+          link="https://bizzybazaar.vercel.app/"
+          img="/websitesecond.png"
+        />
+
+        <ThreeDCardDemo
+          title="Webservice project"
+          para=" Webservice Provider Company site is a web application built using the
+          MERN (MongoDB, Express.js, React, Node.js) stack. This technology
+          stack enables the site to offer a dynamic and responsive user
+          experience. MongoDB is used as the database to store data, Express.js
+          as the web framework for Node.js, React for the frontend user
+          interface."
+          link=""
+          img="/websiteone.png"
+        />
       </div>
 
       <div>
