@@ -30,7 +30,7 @@ function Navbar({ className }: { className?: string }) {
 
         <MenuItem setActive={setActive} active={active} item="Portfolio">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="https://divinevisionaries.netlify.app/#about-section">About</HoveredLink>
+            <HoveredLink href="/#about-section">About</HoveredLink>
             <HoveredLink href="/individual">Resume</HoveredLink>
             <HoveredLink href="/Blog">Blogs</HoveredLink>
             <HoveredLink href="/Blog">Updates</HoveredLink>
